@@ -1,0 +1,26 @@
+AstroMosaicEngine.js Modification:
+
+showSimbadPointerControl:true ** added
+
+AstroMosaic.html modifications
+
+
+// Telescopio personale
+
+        { 
+            name: "Munistellar", 
+            radec_format: 1, 
+            telescopes: [
+                { name: "eVscope Equinox", fov_x: 37.43, fov_y: 28.27, lat: 45.620980, lng: 9.045258, timezoneOffset: 1, alt: 212, weather: "saronno", horizon_limits: [0], meridian_transit: 0  },
+                { name: "MirroSky 127AZ", fov_x: 9.41, fov_y: 7.06, lat: 45.620980, lng: 9.045258, timezoneOffset: 1, alt: 212, weather: "saronno", horizon_limits: [0], meridian_transit: 0  }
+		        { name: "MirroSky FinderScope", fov_x: 89.4, fov_y: 67.2, lat: 45.620980, lng: 9.045258, timezoneOffset: 1, alt: 212, weather: "saronno", horizon_limits: [0], meridian_transit: 0  }
+            ] 
+        },
+		
+		
+// weather service saronno
+
+{ name: "saronno", url: '<iframe src="https://www.meteoblue.com/it/tempo/widget/seeing/saronno_italia_3167113?geoloc=fixed&noground=0"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 520px; height: 753px"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/it/tempo/previsioni/seeing/saronno_italia_3167113?utm_source=weather_widget&utm_medium=linkus&utm_content=seeing&utm_campaign=Weather%2BWidget" target="_blank" rel="noopener">meteoblue</a></div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/en/weather/forecast/seeing/fregenal-de-la-sierra_spain_2517643?utm_source=weather_widget&utm_medium=linkus&utm_content=seeing&utm_campaign=Weather%2BWidget" target="_blank" rel="noopener">meteoblue</a></div>'},
+        
+		
+		
